@@ -1,0 +1,17 @@
+{{#if addNewListing}}
+<form>
+  <div class="form-group">
+    <label for="title">Title</label>
+    {{input value=title id="title"}}
+  </div>
+
+  <div class="form-group">
+    <label for="content">Content</label>
+    {{input value=content id="content"}}
+  </div>
+  <button {{action 'save1'}}>Save</button>
+</form>
+{{else}}
+
+<button {{action "listingFormShow"}}> New Listing</button>
+{{/if}}

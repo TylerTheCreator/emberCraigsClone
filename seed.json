@@ -1,0 +1,13 @@
+{ "cats": [{
+  "name": " Salt"
+  }, {
+  "name": "TV"
+  }, {
+  "name": "Beige"
+}],
+ "listings": [{
+   "title": "black bear",
+   "content": "really big bears for sale"
+
+   }]
+}
